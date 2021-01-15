@@ -1,6 +1,5 @@
 import random
 import discord
-import os
 
 client = discord.Client()
 chID = '772312079590883368'
@@ -18,4 +17,6 @@ async def on_member_join(member):
     msg = await client.get_channel(chID).send(str)
     
 
-token = os.environ['DISCORD_BOT_TOKEN']
+token = 'Nzk5NTI0OTIwNzg2NDE5NzMz.YAE1mw.xY4cx7-JyvBN42huK7TUNtEwn5E'
+
+client.run(token)
